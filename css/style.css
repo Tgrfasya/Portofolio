@@ -277,6 +277,10 @@ body.dark .theme-option.sun {
 .reveal-right {
     opacity: 0;
     will-change: opacity, transform;
+
+    transition:
+        opacity .8s ease,
+        transform .8s cubic-bezier(.2, .8, .2, 1);
 }
 
 .reveal {
@@ -296,13 +300,6 @@ body.dark .theme-option.sun {
 .reveal-right.active {
     opacity: 1;
     transform: translate(0);
-}
-
-.reveal,
-.reveal-left,
-.reveal-right {
-    transition: opacity .8s ease,
-        transform .8s cubic-bezier(.2, .8, .2, 1);
 }
 
 .reveal-delay-1 {
@@ -668,17 +665,6 @@ body.dark .theme-option.sun {
     text-align: center;
 }
 
-.education-logo {
-    width: 135px;
-    height: 135px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    transition: transform .45s cubic-bezier(.2, .8, .2, 1);
-}
-
 .education-logo img {
     width: 120px;
     height: 120px;
@@ -786,18 +772,10 @@ body.dark .theme-option.sun {
     transform: translateX(34px);
 }
 
-.education-item-right:hover {
-    transform:
-        translateX(34px)
-        translateY(-4px)
-        scale(1.08);
-}
-
 .education-items:has(.education-item-right:hover) .education-item-left,
 .education-items:has(.education-item-right:focus-visible) .education-item-left {
     transform: translateX(-34px);
 }
-
 
 .education-item:hover .education-logo,
 .education-item:focus-visible .education-logo {
@@ -1241,8 +1219,6 @@ body.dark .theme-option.sun {
 }
 
 .project-figma-link:hover {
-    background: var(--accent);
-    color: var(--accent-text);
     opacity: .88;
 }
 
