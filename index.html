@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="id">
 
 <head>
@@ -7,11 +8,12 @@
     <meta name="description" content="Portfolio M. Tegar Bayu Al-Fasya - Informatics Engineering Student & Aspiring Web and Application Developer">
     <meta name="theme-color" content="#f7f7f5">
 
-    <title>M. Tegar Bayu Al-Fasya | Portfolio</title>
+<title>M. Tegar Bayu Al-Fasya | Portfolio</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-    <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+<link rel="stylesheet" href="/css/style.css">
+
 </head>
 
 <body>
@@ -19,562 +21,837 @@
 <header class="navbar">
     <a href="#home" class="logo">Tegar<span>.</span></a>
 
-    <nav class="nav-menu" aria-label="Main navigation">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#certificates">Certificates</a>
-        <a href="#contact">Contact</a>
-    </nav>
+<nav class="nav-menu" aria-label="Main navigation">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-    <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
-        <span class="theme-option moon" aria-hidden="true">☾</span>
-        <span class="theme-option sun" aria-hidden="true">☀</span>
-        <span class="theme-slider" aria-hidden="true"></span>
-    </button>
+<button id="themeToggle" class="theme-toggle" type="button"
+    aria-label="Toggle dark mode" aria-pressed="false">
+    <span class="theme-option moon" aria-hidden="true">☾</span>
+    <span class="theme-option sun" aria-hidden="true">☀</span>
+    <span class="theme-slider" aria-hidden="true"></span>
+</button>
+
 </header>
 
 <main>
+    
+<!-- HOME -->
 
-    <section id="home" class="hero">
-        <div class="hero-content reveal reveal-left">
-            <p class="section-label">INFORMATICS ENGINEERING STUDENT</p>
+<section id="home" class="hero">
 
-            <h1>M. Tegar<br><span>Bayu Al-Fasya.</span></h1>
+    <div class="hero-content reveal reveal-left">
 
-            <h2>Aspiring Web &amp; Application Developer</h2>
+        <p class="section-label">INFORMATICS ENGINEERING STUDENT</p>
 
-            <p class="hero-description">
-                Mahasiswa S1 Teknik Informatika Universitas Lampung dengan minat pada web development,
-                application development, database, UI/UX, dan IoT.
+        <h1>
+            M. Tegar<br>
+            <span>Bayu Al-Fasya.</span>
+        </h1>
+
+        <h2>Aspiring Web &amp; Application Developer</h2>
+
+        <p class="hero-description">
+            Mahasiswa S1 Teknik Informatika Universitas Lampung dengan minat pada
+            web development, application development, database, UI/UX, dan IoT.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+
+    </div>
+
+    <div class="profile-container reveal reveal-right">
+
+        <div class="profile-image">
+
+            <img src="/assets/foto-profil.png"
+                alt="Foto M. Tegar Bayu Al-Fasya"
+                onerror="this.style.display='none'; document.getElementById('profilePlaceholder').style.display='flex';">
+
+            <div id="profilePlaceholder"
+                class="image-placeholder profile-placeholder"
+                style="display:none;">
+                <span>foto-profil.jpg</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="section about-section">
+
+    <div class="section-heading about-heading reveal reveal-left">
+
+        <p class="section-label">SOMETHING</p>
+
+        <h2>About Me</h2>
+
+    </div>
+
+    <div class="about-content">
+
+        <div class="about-text reveal reveal-left">
+
+            <p>
+                Mahasiswa S1 Teknik Informatika Universitas Lampung dengan IPK
+                <strong>3,55/4,00</strong>. Memiliki kemampuan dasar dalam
+                pemrograman, pengembangan web, database, UI design, dan IoT.
+                Terbiasa menggunakan Figma untuk merancang antarmuka serta memiliki
+                pengalaman mengerjakan berbagai proyek akademik berbasis website
+                dan aplikasi. Memiliki minat untuk mengembangkan kemampuan teknis
+                dan memperoleh pengalaman profesional di bidang web dan application
+                development.
             </p>
 
-            <div class="hero-buttons">
-                <a href="#projects" class="btn btn-primary">View Projects</a>
-                <a href="#contact" class="btn btn-secondary">Contact Me</a>
-            </div>
         </div>
 
-        <div class="profile-container reveal reveal-right">
-            <div class="profile-image">
-                <img src="/assets/foto-profil.png" alt="Foto M. Tegar Bayu Al-Fasya"
-                     onerror="this.style.display='none'; document.getElementById('profilePlaceholder').style.display='flex';">
 
-                <div id="profilePlaceholder" class="image-placeholder profile-placeholder" style="display:none;">
-                    <span>foto-profil.jpg</span>
-                </div>
-            </div>
-        </div>
-    </section>
+        <!-- EDUCATION -->
 
-    <section id="about" class="section">
-        <div class="about-grid">
+        <div class="education-timeline reveal reveal-right">
 
-            <div class="about-text reveal reveal-left">
-                <p>
-                    Mahasiswa S1 Teknik Informatika Universitas Lampung dengan IPK <strong>3,55/4,00</strong>.
-                    Memiliki kemampuan dasar dalam pemrograman, pengembangan web, database, UI design, dan IoT.
-                </p>
+            <div class="education-items">
 
-                <p>
-                    Terbiasa menggunakan Figma untuk merancang antarmuka serta memiliki pengalaman mengerjakan
-                    berbagai proyek akademik berbasis website dan aplikasi.
-                </p>
+                <!-- SMA -->
 
-                <p>
-                    Memiliki minat untuk mengembangkan kemampuan teknis dan memperoleh pengalaman profesional
-                    di bidang web dan application development.
-                </p>
-            </div>
+                <article class="education-item education-item-left reveal-delay-1"
+                    tabindex="0">
 
-            <div class="education-cards">
+                    <div class="education-main">
 
-                <article class="education-card reveal reveal-right reveal-delay-1">
-                    <div class="education-logo">
-                        <img src="/assets/logo-unila.webp" alt="Logo Universitas Lampung">
-                    </div>
-
-                    <div class="education-content">
-                        <h3>Universitas Lampung</h3>
-                        <p>S1 Teknik Informatika</p>
-
-                        <div class="education-meta">
-                            <span>2022 – Sekarang</span>
-                            <strong>GPA 3.55 / 4.00</strong>
+                        <div class="education-logo">
+                            <img src="/assets/logo-smanda.webp"
+                                alt="Logo SMA Negeri 2 Bandar Lampung">
                         </div>
-                    </div>
-                </article>
 
-                <article class="education-card reveal reveal-right reveal-delay-2">
-                    <div class="education-logo">
-                        <img src="/assets/logo-smanda.webp" alt="Logo SMA Negeri 2 Bandar Lampung">
-                    </div>
-
-                    <div class="education-content">
                         <h3>SMA Negeri 2 Bandar Lampung</h3>
-                        <p>High School</p>
 
-                        <div class="education-meta">
-                            <span>2019 – 2022</span>
-                            <strong>89.99</strong>
-                        </div>
                     </div>
+
+                    <div class="education-details">
+
+                        <div class="education-detail-row">
+                            <span class="education-detail-label">Program</span>
+                            <strong>Jurusan IPA</strong>
+                        </div>
+
+                        <div class="education-detail-row">
+                            <span class="education-detail-label">Period</span>
+                            <strong>2019 — 2022</strong>
+                        </div>
+
+                        <div class="education-detail-row">
+                            <span class="education-detail-label">Score</span>
+                            <strong>89.99 / 100</strong>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- UNIVERSITAS -->
+
+                <article class="education-item education-item-right reveal-delay-2"
+                    tabindex="0">
+
+                    <div class="education-main">
+
+                        <div class="education-logo">
+                            <img src="/assets/logo-unila.webp"
+                                alt="Logo Universitas Lampung">
+                        </div>
+
+                        <h3>Universitas Lampung</h3>
+
+                    </div>
+
+                    <div class="education-details">
+
+                        <div class="education-detail-row">
+                            <span class="education-detail-label">Program</span>
+                            <strong>S1 Teknik Informatika</strong>
+                        </div>
+
+                        <div class="education-detail-row">
+                            <span class="education-detail-label">Period</span>
+                            <strong>2022 — Present</strong>
+                        </div>
+
+                        <div class="education-detail-row">
+                            <span class="education-detail-label">GPA</span>
+                            <strong>3.55 / 4.00</strong>
+                        </div>
+
+                    </div>
+
                 </article>
 
             </div>
-        </div>
-    </section>
-
-    <section id="skills" class="section section-alt">
-
-        <div class="section-heading reveal">
-            <p class="section-label">WHAT I USE</p>
-            <h2>Technical Skills</h2>
-        </div>
-
-        <div class="skills-grid">
-
-            <article class="skill-card reveal reveal-delay-1">
-                <span class="skill-number">01</span>
-                <h3>Programming</h3>
-
-                <div class="skill-logos">
-                    <i class="devicon-cplusplus-plain colored" title="C++"></i>
-                    <i class="devicon-python-plain colored" title="Python"></i>
-                    <i class="devicon-php-plain colored" title="PHP"></i>
-                    <i class="devicon-javascript-plain colored" title="JavaScript"></i>
-                </div>
-            </article>
-
-            <article class="skill-card reveal reveal-delay-2">
-                <span class="skill-number">02</span>
-                <h3>Web Development</h3>
-
-                <div class="skill-logos">
-                    <i class="devicon-html5-plain colored" title="HTML"></i>
-                    <i class="devicon-css3-plain colored" title="CSS"></i>
-                    <i class="devicon-laravel-plain colored" title="Laravel"></i>
-                    <i class="devicon-react-original colored" title="React"></i>
-                    <i class="devicon-nodejs-plain colored" title="Node.js"></i>
-                </div>
-            </article>
-
-            <article class="skill-card reveal reveal-delay-3">
-                <span class="skill-number">03</span>
-                <h3>Database</h3>
-
-                <div class="skill-logos">
-                    <i class="devicon-mysql-plain colored" title="MySQL"></i>
-                    <i class="devicon-oracle-original colored" title="Oracle Database"></i>
-                </div>
-            </article>
-
-            <article class="skill-card reveal reveal-delay-4">
-                <span class="skill-number">04</span>
-                <h3>UI/UX Design</h3>
-
-                <div class="skill-logos">
-                    <i class="devicon-figma-plain colored" title="Figma"></i>
-                </div>
-            </article>
-
-            <article class="skill-card reveal reveal-delay-5">
-                <span class="skill-number">05</span>
-                <h3>IoT &amp; Hardware</h3>
-
-                <div class="skill-logos">
-                    <i class="devicon-arduino-plain colored" title="Arduino"></i>
-                </div>
-            </article>
-
-            <article class="skill-card reveal reveal-delay-6">
-                <span class="skill-number">06</span>
-                <h3>Tools &amp; Environment</h3>
-
-                <div class="skill-logos">
-                    <i class="devicon-git-plain colored" title="Git"></i>
-                    <i class="devicon-github-original colored" title="GitHub"></i>
-                    <i class="devicon-vscode-plain colored" title="VS Code"></i>
-                    <i class="devicon-linux-plain colored" title="Linux"></i>
-                    <i class="devicon-ubuntu-plain colored" title="Ubuntu"></i>
-                    <i class="devicon-debian-plain colored" title="Debian"></i>
-                </div>
-            </article>
 
         </div>
 
-        <div class="additional-skills reveal">
-            <h3>Additional Skills</h3>
+    </div>
 
-            <div class="skill-tags">
-                <span>Networking Fundamentals</span>
-                <span>Cisco Networking</span>
-                <span>Linux CLI</span>
-                <span>Backend Development</span>
-                <span>Database Integration</span>
+</section>
+
+
+<!-- SKILLS -->
+
+<section id="skills" class="section section-alt">
+
+    <div class="section-heading reveal">
+
+        <p class="section-label">WHAT I USE</p>
+
+        <h2>Technical Skills</h2>
+
+    </div>
+
+    <div class="skills-grid">
+
+        <article class="skill-card reveal reveal-delay-1">
+
+            <span class="skill-number">01</span>
+
+            <h3>Programming</h3>
+
+            <div class="skill-logos">
+                <i class="devicon-cplusplus-plain colored" title="C++"></i>
+                <i class="devicon-python-plain colored" title="Python"></i>
+                <i class="devicon-php-plain colored" title="PHP"></i>
+                <i class="devicon-javascript-plain colored" title="JavaScript"></i>
             </div>
+
+        </article>
+
+
+        <article class="skill-card reveal reveal-delay-2">
+
+            <span class="skill-number">02</span>
+
+            <h3>Web Development</h3>
+
+            <div class="skill-logos">
+                <i class="devicon-html5-plain colored" title="HTML"></i>
+                <i class="devicon-css3-plain colored" title="CSS"></i>
+                <i class="devicon-laravel-plain colored" title="Laravel"></i>
+                <i class="devicon-react-original colored" title="React"></i>
+                <i class="devicon-nodejs-plain colored" title="Node.js"></i>
+            </div>
+
+        </article>
+
+
+        <article class="skill-card reveal reveal-delay-3">
+
+            <span class="skill-number">03</span>
+
+            <h3>Database</h3>
+
+            <div class="skill-logos">
+                <i class="devicon-mysql-plain colored" title="MySQL"></i>
+                <i class="devicon-oracle-original colored" title="Oracle Database"></i>
+            </div>
+
+        </article>
+
+
+        <article class="skill-card reveal reveal-delay-4">
+
+            <span class="skill-number">04</span>
+
+            <h3>UI/UX Design</h3>
+
+            <div class="skill-logos">
+                <i class="devicon-figma-plain colored" title="Figma"></i>
+            </div>
+
+        </article>
+
+
+        <article class="skill-card reveal reveal-delay-5">
+
+            <span class="skill-number">05</span>
+
+            <h3>IoT &amp; Hardware</h3>
+
+            <div class="skill-logos">
+                <i class="devicon-arduino-plain colored" title="Arduino"></i>
+            </div>
+
+        </article>
+
+
+        <article class="skill-card reveal reveal-delay-6">
+
+            <span class="skill-number">06</span>
+
+            <h3>Tools &amp; Environment</h3>
+
+            <div class="skill-logos">
+                <i class="devicon-git-plain colored" title="Git"></i>
+                <i class="devicon-github-original colored" title="GitHub"></i>
+                <i class="devicon-vscode-plain colored" title="VS Code"></i>
+                <i class="devicon-linux-plain colored" title="Linux"></i>
+                <i class="devicon-ubuntu-plain colored" title="Ubuntu"></i>
+                <i class="devicon-debian-plain colored" title="Debian"></i>
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <div class="additional-skills reveal">
+
+        <h3>Additional Skills</h3>
+
+        <div class="skill-tags">
+            <span>Networking Fundamentals</span>
+            <span>Cisco Networking</span>
+            <span>Linux CLI</span>
+            <span>Backend Development</span>
+            <span>Database Integration</span>
         </div>
 
-    </section>
+    </div>
 
-    <section id="projects" class="section">
+</section>
 
-        <div class="section-heading reveal">
-            <p class="section-label">SELECTED WORK</p>
-            <h2>Projects</h2>
+
+<!-- PROJECTS -->
+
+<section id="projects" class="section">
+
+    <div class="section-heading reveal">
+
+        <p class="section-label">SELECTED WORK</p>
+
+        <h2>Projects</h2>
+
+    </div>
+
+
+    <div class="projects-carousel reveal">
+
+        <button type="button"
+            class="project-carousel-arrow project-carousel-prev"
+            id="projectPrev"
+            aria-label="Previous project">
+            <span aria-hidden="true">←</span>
+        </button>
+
+
+        <div class="projects-viewport">
+
+            <div class="projects-track" id="projectsTrack">
+
+
+                <article class="project-card"
+                    data-index="0"
+                    data-category="Personal Project"
+                    data-year="2023 – Present"
+                    data-title="Personal Portfolio"
+                    data-description="Website portofolio pribadi untuk menampilkan profil, keterampilan, dan berbagai project yang pernah dikerjakan."
+                    data-figma="">
+
+                    <div class="project-image">
+
+                        <img src="/assets/project-portfolio.png"
+                            alt="Personal Portfolio"
+                            onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
+
+                        <div class="image-placeholder" style="display:none;">
+                            Foto tidak tersedia
+                        </div>
+
+                        <span class="project-number">01</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card"
+                    data-index="1"
+                    data-category="Academic Project"
+                    data-year="2023"
+                    data-title="Shargo — E-Commerce"
+                    data-description="Perancangan antarmuka website pemesanan akomodasi dengan fitur pencarian, informasi kamar, dan pemesanan."
+                    data-figma="https://www.figma.com/proto/GR5XULLcnArPTv8xLD2LOS/SharGo?node-id=2-1173&p=f&t=PoNHslwsYOKsbcoF-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=36%3A313">
+
+                    <div class="project-image">
+
+                        <img src="/assets/project-shargo.png"
+                            alt="Shargo E-Commerce"
+                            onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
+
+                        <div class="image-placeholder" style="display:none;">
+                            Foto tidak tersedia
+                        </div>
+
+                        <span class="project-number">02</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card"
+                    data-index="2"
+                    data-category="Academic Project"
+                    data-year="2023"
+                    data-title="Sobat Ngombe"
+                    data-description="Perancangan aplikasi untuk memantau kualitas air sumur berdasarkan parameter seperti pH, bakteri, dan kandungan zat lainnya."
+                    data-figma="https://www.figma.com/proto/F3UKe9fleMimdyPny3zuEv/SobatNgombe?node-id=706-3452&p=f&t=MKJ5fRYdXwt46oLf-1&scaling=scale-down&content-scaling=fixed&page-id=706%3A3451">
+
+                    <div class="project-image">
+
+                        <img src="/assets/project-sobat-ngombe.png"
+                            alt="Sobat Ngombe"
+                            onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
+
+                        <div class="image-placeholder" style="display:none;">
+                            Foto tidak tersedia
+                        </div>
+
+                        <span class="project-number">03</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card"
+                    data-index="3"
+                    data-category="Academic Project"
+                    data-year="2023"
+                    data-title="Website Profil Café"
+                    data-description="Website profil café dengan informasi café, menu, lokasi, serta struktur navigasi yang sederhana dan informatif."
+                    data-figma="https://www.figma.com/proto/QPqXojZkbheqvpoAszwZzx/DESAIN-KASAR?node-id=11-3&p=f&t=uSv8yVxoxmvNCSTW-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=110%3A125">
+
+                    <div class="project-image">
+
+                        <img src="/assets/project-cafe.png"
+                            alt="Website Profil Café"
+                            onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
+
+                        <div class="image-placeholder" style="display:none;">
+                            Foto tidak tersedia
+                        </div>
+
+                        <span class="project-number">04</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card"
+                    data-index="4"
+                    data-category="Academic Project"
+                    data-year="2024"
+                    data-title="E-Commerce Tiket Bioskop"
+                    data-description="Perancangan website pemesanan tiket bioskop dengan informasi film, jadwal tayang, dan alur pemesanan tiket."
+                    data-figma="">
+
+                    <div class="project-image">
+
+                        <img src="/assets/project-bioskop.png"
+                            alt="E-Commerce Tiket Bioskop"
+                            onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
+
+                        <div class="image-placeholder" style="display:none;">
+                            Foto tidak tersedia
+                        </div>
+
+                        <span class="project-number">05</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card"
+                    data-index="5"
+                    data-category="Collaborative Project"
+                    data-year="2025"
+                    data-title="CSIRT Universitas Lampung"
+                    data-description="Website untuk mendukung pelaporan dan pemantauan insiden teknologi informasi di lingkungan universitas."
+                    data-figma="https://www.figma.com/proto/biQegh9rihtKviXHDTfvF6/HIFI-CSIRT?node-id=135-322&p=f&t=Uf93N13kvR9OjFtX-1&scaling=scale-down-width&content-scaling=fixed&page-id=10%3A1078">
+
+                    <div class="project-image">
+
+                        <img src="/assets/project-csirt.png"
+                            alt="CSIRT Universitas Lampung"
+                            onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
+
+                        <div class="image-placeholder" style="display:none;">
+                            Foto tidak tersedia
+                        </div>
+
+                        <span class="project-number">06</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card"
+                    data-index="6"
+                    data-category="Collaborative Project"
+                    data-year="2025"
+                    data-title="Baruku — Edukasi E-Waste"
+                    data-description="Perancangan antarmuka website edukasi pengelolaan sampah elektronik serta konsep forum diskusi dan informasi mitra."
+                    data-figma="https://www.figma.com/proto/llaWNbezETNaStCSZ8Tka6/Design-UI?node-id=3-4&t=uverOyFwRfrNWD8J-1&scaling=contain&content-scaling=fixed&page-id=0%3A1">
+
+                    <div class="project-image">
+
+                        <img src="/assets/project-baruku.png"
+                            alt="Baruku Edukasi E-Waste"
+                            onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
+
+                        <div class="image-placeholder" style="display:none;">
+                            Foto tidak tersedia
+                        </div>
+
+                        <span class="project-number">07</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card"
+                    data-index="7"
+                    data-category="Academic Project"
+                    data-year="2025"
+                    data-title="Smart Farming"
+                    data-description="Perancangan aplikasi Android untuk memantau kondisi tanaman berdasarkan data sensor dan konsep fitur penyiraman tanaman."
+                    data-figma="https://www.figma.com/design/uguoHvn8FyasCnxcXfOgcD/SKPL-Smart-Farming?node-id=4-4&t=aQyNoqYx0IlP1Laq-1">
+
+                    <div class="project-image">
+
+                        <img src="/assets/project-smart-farming.png"
+                            alt="Smart Farming"
+                            onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
+
+                        <div class="image-placeholder" style="display:none;">
+                            Foto tidak tersedia
+                        </div>
+
+                        <span class="project-number">08</span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
         </div>
 
-        <div class="projects-grid">
 
-            <article class="project-card reveal reveal-delay-1" data-figma="">
-                <div class="project-image">
-                    <img src="/assets/project-portfolio.png" alt="Personal Portfolio"
-                         onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
+        <button type="button"
+            class="project-carousel-arrow project-carousel-next"
+            id="projectNext"
+            aria-label="Next project">
+            <span aria-hidden="true">→</span>
+        </button>
 
-                    <div class="image-placeholder" style="display:none;">Foto tidak tersedia</div>
-                    <span class="project-number">01</span>
-                </div>
+    </div>
 
-                <div class="project-content">
-                    <div class="project-meta">
-                        <span>Personal Project</span>
-                        <span>2023 – Present</span>
-                    </div>
 
-                    <h3>Personal Portfolio</h3>
+    <div class="project-info" id="projectInfo">
 
-                    <p>
-                        Website portofolio pribadi untuk menampilkan profil, keterampilan,
-                        dan berbagai project yang pernah dikerjakan.
-                    </p>
-
-                    <span class="project-link">Open Figma ↗</span>
-                </div>
-            </article>
-
-            <article class="project-card reveal reveal-delay-2"
-                     data-figma="https://www.figma.com/proto/GR5XULLcnArPTv8xLD2LOS/SharGo?node-id=2-1173&p=f&t=PoNHslwsYOKsbcoF-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=36%3A313">
-
-                <div class="project-image">
-                    <img src="/assets/project-shargo.png" alt="Shargo E-Commerce"
-                         onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
-
-                    <div class="image-placeholder" style="display:none;">Foto tidak tersedia</div>
-                    <span class="project-number">02</span>
-                </div>
-
-                <div class="project-content">
-                    <div class="project-meta">
-                        <span>Academic Project</span>
-                        <span>2023</span>
-                    </div>
-
-                    <h3>Shargo — E-Commerce</h3>
-
-                    <p>
-                        Perancangan antarmuka website pemesanan akomodasi dengan fitur pencarian,
-                        informasi kamar, dan pemesanan.
-                    </p>
-
-                    <span class="project-link">Open Figma ↗</span>
-                </div>
-            </article>
-
-            <article class="project-card reveal reveal-delay-3"
-                     data-figma="https://www.figma.com/proto/F3UKe9fleMimdyPny3zuEv/SobatNgombe?node-id=706-3452&p=f&t=MKJ5fRYdXwt46oLf-1&scaling=scale-down&content-scaling=fixed&page-id=706%3A3451">
-
-                <div class="project-image">
-                    <img src="/assets/project-sobat-ngombe.png" alt="Sobat Ngombe"
-                         onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
-
-                    <div class="image-placeholder" style="display:none;">Foto tidak tersedia</div>
-                    <span class="project-number">03</span>
-                </div>
-
-                <div class="project-content">
-                    <div class="project-meta">
-                        <span>Academic Project</span>
-                        <span>2023</span>
-                    </div>
-
-                    <h3>Sobat Ngombe</h3>
-
-                    <p>
-                        Perancangan aplikasi untuk memantau kualitas air sumur berdasarkan parameter
-                        seperti pH, bakteri, dan kandungan zat lainnya.
-                    </p>
-
-                    <span class="project-link">Open Figma ↗</span>
-                </div>
-            </article>
-
-            <article class="project-card reveal reveal-delay-4"
-                     data-figma="https://www.figma.com/proto/QPqXojZkbheqvpoAszwZzx/DESAIN-KASAR?node-id=11-3&p=f&t=uSv8yVxoxmvNCSTW-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=110%3A125">
-
-                <div class="project-image">
-                    <img src="/assets/project-cafe.png" alt="Website Profil Café"
-                         onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
-
-                    <div class="image-placeholder" style="display:none;">Foto tidak tersedia</div>
-                    <span class="project-number">04</span>
-                </div>
-
-                <div class="project-content">
-                    <div class="project-meta">
-                        <span>Academic Project</span>
-                        <span>2023</span>
-                    </div>
-
-                    <h3>Website Profil Café</h3>
-
-                    <p>
-                        Website profil café dengan informasi café, menu, lokasi,
-                        serta struktur navigasi yang sederhana dan informatif.
-                    </p>
-
-                    <span class="project-link">Open Figma ↗</span>
-                </div>
-            </article>
-
-            <article class="project-card reveal reveal-delay-5" data-figma="">
-                <div class="project-image">
-                    <img src="/assets/project-bioskop.png" alt="E-Commerce Tiket Bioskop"
-                         onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
-
-                    <div class="image-placeholder" style="display:none;">Foto tidak tersedia</div>
-                    <span class="project-number">05</span>
-                </div>
-
-                <div class="project-content">
-                    <div class="project-meta">
-                        <span>Academic Project</span>
-                        <span>2024</span>
-                    </div>
-
-                    <h3>E-Commerce Tiket Bioskop</h3>
-
-                    <p>
-                        Perancangan website pemesanan tiket bioskop dengan informasi film,
-                        jadwal tayang, dan alur pemesanan tiket.
-                    </p>
-
-                    <span class="project-link">Open Figma ↗</span>
-                </div>
-            </article>
-
-            <article class="project-card reveal reveal-delay-6"
-                     data-figma="https://www.figma.com/proto/biQegh9rihtKviXHDTfvF6/HIFI-CSIRT?node-id=135-322&p=f&t=Uf93N13kvR9OjFtX-1&scaling=scale-down-width&content-scaling=fixed&page-id=10%3A1078">
-
-                <div class="project-image">
-                    <img src="/assets/project-csirt.png" alt="CSIRT Universitas Lampung"
-                         onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
-
-                    <div class="image-placeholder" style="display:none;">Foto tidak tersedia</div>
-                    <span class="project-number">06</span>
-                </div>
-
-                <div class="project-content">
-                    <div class="project-meta">
-                        <span>Collaborative Project</span>
-                        <span>2025</span>
-                    </div>
-
-                    <h3>CSIRT Universitas Lampung</h3>
-
-                    <p>
-                        Website untuk mendukung pelaporan dan pemantauan insiden teknologi informasi
-                        di lingkungan universitas.
-                    </p>
-
-                    <span class="project-link">Open Figma ↗</span>
-                </div>
-            </article>
-
-            <article class="project-card reveal reveal-delay-1"
-                     data-figma="https://www.figma.com/proto/llaWNbezETNaStCSZ8Tka6/Design-UI?node-id=3-4&t=uverOyFwRfrNWD8J-1&scaling=contain&content-scaling=fixed&page-id=0%3A1">
-
-                <div class="project-image">
-                    <img src="/assets/project-baruku.png" alt="Baruku Edukasi E-Waste"
-                         onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
-
-                    <div class="image-placeholder" style="display:none;">Foto tidak tersedia</div>
-                    <span class="project-number">07</span>
-                </div>
-
-                <div class="project-content">
-                    <div class="project-meta">
-                        <span>Collaborative Project</span>
-                        <span>2025</span>
-                    </div>
-
-                    <h3>Baruku — Edukasi E-Waste</h3>
-
-                    <p>
-                        Perancangan antarmuka website edukasi pengelolaan sampah elektronik
-                        serta konsep forum diskusi dan informasi mitra.
-                    </p>
-
-                    <span class="project-link">Open Figma ↗</span>
-                </div>
-            </article>
-
-            <article class="project-card reveal reveal-delay-2"
-                     data-figma="https://www.figma.com/design/uguoHvn8FyasCnxcXfOgcD/SKPL-Smart-Farming?node-id=4-4&t=aQyNoqYx0IlP1Laq-1">
-
-                <div class="project-image">
-                    <img src="/assets/project-smart-farming.png" alt="Smart Farming"
-                         onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
-
-                    <div class="image-placeholder" style="display:none;">Foto tidak tersedia</div>
-                    <span class="project-number">08</span>
-                </div>
-
-                <div class="project-content">
-                    <div class="project-meta">
-                        <span>Academic Project</span>
-                        <span>2025</span>
-                    </div>
-
-                    <h3>Smart Farming</h3>
-
-                    <p>
-                        Perancangan aplikasi Android untuk memantau kondisi tanaman berdasarkan data sensor
-                        dan konsep fitur penyiraman tanaman.
-                    </p>
-
-                    <span class="project-link">Open Figma ↗</span>
-                </div>
-            </article>
-
-        </div>
-    </section>
-
-    <section id="certificates" class="section section-alt">
-
-        <div class="section-heading reveal">
-            <p class="section-label">ACHIEVEMENTS</p>
-            <h2>Courses &amp; Certifications</h2>
+        <div class="project-meta">
+            <span id="projectCategory">Personal Project</span>
+            <span id="projectYear">2023 – Present</span>
         </div>
 
-        <div class="certificates-grid">
+        <h3 id="projectTitle">Personal Portfolio</h3>
 
-            <article class="certificate-card reveal reveal-delay-1" data-drive="">
-                <div class="certificate-image">
-                    <img src="/assets/cert-oracle.png" alt="Oracle Database Certificate"
-                         onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
+        <p id="projectDescription">
+            Website portofolio pribadi untuk menampilkan profil, keterampilan,
+            dan berbagai project yang pernah dikerjakan.
+        </p>
 
-                    <div class="image-placeholder">Foto tidak tersedia</div>
-                </div>
 
-                <div class="certificate-content">
-                    <span class="certificate-year">2023</span>
+        <div class="project-actions">
 
-                    <h3>
-                        Oracle Database Design and Database Programming
-                    </h3>
+            <div class="project-nav-group">
 
-                    <span class="certificate-link">View Certificate ↗</span>
-                </div>
-            </article>
+                <button type="button"
+                    class="project-nav-button"
+                    id="projectInfoPrev">
+                    ← Previous
+                </button>
 
-            <article class="certificate-card reveal reveal-delay-2"
-                     data-drive="https://drive.google.com/file/d/1hIz3wXfAHsO6gDO2D3WHMDWifb2nwKG0/view?usp=sharing">
+                <button type="button"
+                    class="project-nav-button"
+                    id="projectInfoNext">
+                    Next →
+                </button>
 
-                <div class="certificate-image">
-                    <img src="/assets/cert-ccna-introduction.png" alt="CCNA Introduction to Networks Certificate"
-                         onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
+            </div>
 
-                    <div class="image-placeholder">Foto tidak tersedia</div>
-                </div>
 
-                <div class="certificate-content">
-                    <span class="certificate-year">2024</span>
-
-                    <h3>
-                        Cisco Networking Academy — CCNA: Introduction to Networks
-                    </h3>
-
-                    <span class="certificate-link">View Certificate ↗</span>
-                </div>
-            </article>
-
-            <article class="certificate-card reveal reveal-delay-3" data-drive="">
-                <div class="certificate-image">
-                    <img src="/assets/cert-ccna-enterprise.png" alt="CCNA Enterprise Networking Certificate"
-                         onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
-
-                    <div class="image-placeholder">Foto tidak tersedia</div>
-                </div>
-
-                <div class="certificate-content">
-                    <span class="certificate-year">2024</span>
-
-                    <h3>
-                        Cisco Networking Academy — CCNA: Enterprise Networking,
-                        Security, and Automation
-                    </h3>
-
-                    <span class="certificate-link">View Certificate ↗</span>
-                </div>
-            </article>
-
-        </div>
-    </section>
-
-    <section id="contact" class="section contact-section">
-
-        <div class="contact-content reveal reveal-left">
-            <p class="section-label">GET IN TOUCH</p>
-
-            <h2>Let's work<br><span>together.</span></h2>
-        </div>
-
-        <div class="contact-info reveal reveal-right">
-
-            <a href="mailto:mtegaraja2003@gmail.com?subject=Hello%20Tegar%20-%20Portfolio">
-                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-                <span>mtegaraja2003@gmail.com</span>
+            <a href="#"
+                class="project-link project-figma-link"
+                id="projectFigmaLink"
+                target="_blank"
+                rel="noopener noreferrer">
+                Open Figma ↗
             </a>
 
-            <a href="https://wa.me/628994263431" target="_blank" rel="noopener noreferrer">
-                <i class="fa-solid fa-phone" aria-hidden="true"></i>
-                <span>08994263431</span>
-            </a>
-
-            <a href="https://www.instagram.com/Tgrfasyaa/" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-                <span>@Tgrfasyaa</span>
-            </a>
-
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
-                <span>Tegar Bayu</span>
-            </a>
-
-            <a href="https://github.com/Tgrfasya" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-github" aria-hidden="true"></i>
-                <span>Tgrfasya</span>
-            </a>
-
-            <span class="contact-location">
-                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
-                <span>Bandar Lampung, Lampung, Indonesia</span>
-            </span>
-
         </div>
-    </section>
+
+    </div>
+
+</section>
+
+
+<!-- CERTIFICATES -->
+
+<section id="certificates" class="section section-alt">
+
+    <div class="section-heading reveal">
+
+        <p class="section-label">ACHIEVEMENTS</p>
+
+        <h2>Courses &amp; Certifications</h2>
+
+    </div>
+
+
+    <div class="certificates-grid">
+
+
+        <article class="certificate-card reveal reveal-delay-1"
+            data-drive="">
+
+            <div class="certificate-image">
+
+                <img src="/assets/cert-oracle.png"
+                    alt="Oracle Database Certificate"
+                    onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
+
+                <div class="image-placeholder">
+                    Foto tidak tersedia
+                </div>
+
+            </div>
+
+            <div class="certificate-content">
+
+                <span class="certificate-year">2023</span>
+
+                <h3>
+                    Oracle Database Design and Database Programming
+                </h3>
+
+                <span class="certificate-link">
+                    View Certificate ↗
+                </span>
+
+            </div>
+
+        </article>
+
+
+        <article class="certificate-card reveal reveal-delay-2"
+            data-drive="https://drive.google.com/file/d/1hIz3wXfAHsO6gDO2D3WHWifb2nwKG0/view?usp=sharing">
+
+            <div class="certificate-image">
+
+                <img src="/assets/cert-ccna-introduction.png"
+                    alt="CCNA Introduction to Networks Certificate"
+                    onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
+
+                <div class="image-placeholder">
+                    Foto tidak tersedia
+                </div>
+
+            </div>
+
+            <div class="certificate-content">
+
+                <span class="certificate-year">2024</span>
+
+                <h3>
+                    Cisco Networking Academy — CCNA:
+                    Introduction to Networks
+                </h3>
+
+                <span class="certificate-link">
+                    View Certificate ↗
+                </span>
+
+            </div>
+
+        </article>
+
+
+        <article class="certificate-card reveal reveal-delay-3"
+            data-drive="">
+
+            <div class="certificate-image">
+
+                <img src="/assets/cert-ccna-enterprise.png"
+                    alt="CCNA Enterprise Networking Certificate"
+                    onerror="this.style.display='none'; this.parentElement.querySelector('.image-placeholder').style.display='flex';">
+
+                <div class="image-placeholder">
+                    Foto tidak tersedia
+                </div>
+
+            </div>
+
+            <div class="certificate-content">
+
+                <span class="certificate-year">2024</span>
+
+                <h3>
+                    Cisco Networking Academy — CCNA:
+                    Enterprise Networking, Security, and Automation
+                </h3>
+
+                <span class="certificate-link">
+                    View Certificate ↗
+                </span>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="section contact-section">
+
+    <div class="contact-content reveal reveal-left">
+
+        <p class="section-label">GET IN TOUCH</p>
+
+        <h2>
+            Let's work<br>
+            <span>together.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="contact-info reveal reveal-right">
+
+        <a href="mailto:mtegaraja2003@gmail.com?subject=Hello%20Tegar%20-%20Portfolio">
+
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+
+            <span>mtegaraja2003@gmail.com</span>
+
+        </a>
+
+
+        <a href="https://wa.me/628994263431"
+            target="_blank"
+            rel="noopener noreferrer">
+
+            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+
+            <span>08994263431</span>
+
+        </a>
+
+
+        <a href="https://www.instagram.com/Tgrfasyaa/"
+            target="_blank"
+            rel="noopener noreferrer">
+
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+
+            <span>@Tgrfasyaa</span>
+
+        </a>
+
+
+        <a href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer">
+
+            <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+
+            <span>Tegar Bayu</span>
+
+        </a>
+
+
+        <a href="https://github.com/Tgrfasya"
+            target="_blank"
+            rel="noopener noreferrer">
+
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+
+            <span>Tgrfasya</span>
+
+        </a>
+
+
+        <span class="contact-location">
+
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+
+            <span>Bandar Lampung, Lampung, Indonesia</span>
+
+        </span>
+
+    </div>
+
+</section>
+```
 
 </main>
 
+<!-- FOOTER -->
+
 <footer>
-    <p>© 2026 M. Tegar Bayu Al-Fasya. Built with HTML &amp; CSS.</p>
+
+```
+<p>
+    © 2026 M. Tegar Bayu Al-Fasya.
+    Built with HTML &amp; CSS.
+</p>
+```
+
 </footer>
 
+<!-- SCRIPTS -->
+
 <script type="module" src="/js/navigation.js"></script>
+
 <script type="module" src="/js/scroll-reveal.js"></script>
+
 <script type="module" src="/js/project-links.js"></script>
+
 <script type="module" src="/js/theme.js"></script>
+
+<script type="module" src="/js/project-carousel.js"></script>
 
 </body>
 </html>
