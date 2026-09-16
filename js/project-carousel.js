@@ -1,5 +1,3 @@
-/* PROJECT CAROUSEL */
-
 const carousel = document.querySelector(".projects-carousel");
 const track = document.getElementById("projectsTrack");
 
